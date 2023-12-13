@@ -13,7 +13,7 @@ import PagePublisher from './PagePublisher';
 
 class WorkPublisher {
   // A path of the directory containing the markdown works files.
-  static WORK_ORIGIN_PATH: string = path.join(__dirname, '../_works');
+  static WORK_ORIGIN_PATH: string = path.join(__dirname, '../_work');
 
   // A path of the directory containing the HTML works files.
   static WORK_DIST_PATH: string = path.join(__dirname, '../app/public/work');
